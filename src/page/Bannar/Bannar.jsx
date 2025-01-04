@@ -3,6 +3,7 @@ import image from '../../assets/userimg/kausae img.png'
 import { FiGithub } from 'react-icons/fi';
 import { IoLogoInstagram } from 'react-icons/io';
 import cv from '../../assets/cv/kauserCV.pdf'
+import { Link } from 'react-scroll';
 const Bannar = () => {
     return (
 
@@ -23,7 +24,7 @@ const Bannar = () => {
                         <p className="text-white pt-3">"I am Kausar Mia, a passionate and dedicated full-stack developer with expertise in JavaScript, React, and modern web technologies. I focus on creating clean, user-friendly interfaces and efficient solutions. With a commitment to continuous learning and problem-solving, I aim to deliver impactful projects and grow as a developer while helping others through technology."</p>
                         <div className='space-x-5 my-5'>
                             <a href={cv} download className='btn bg-[#00B4FF] btn-ghost hover:bg-white'>Download CV</a>
-                            <button className='btn btn-outline text-white hover:bg-white hover:text-black'>contact me</button>
+                            <Link to="contact" smooth={true} duration={500} className='btn btn-outline text-white hover:bg-white hover:text-black'>contact me</Link>
                         </div>
                         {/* sosal link */}
                         <div className='flex gap-3'>

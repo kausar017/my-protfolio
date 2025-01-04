@@ -2,7 +2,7 @@ import image from '../../assets/userimg/kausae img.png'
 
 const AboutMe = () => {
     return (
-        <>
+        <div className='bg-black/30 py-3'>
             <div>
                 <h1 className='text-center text-white text-4xl font-semibold'>About Me</h1>
                 <div className="border-b-2 w-full max-w-60 mx-auto"></div>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     );
 };
 
