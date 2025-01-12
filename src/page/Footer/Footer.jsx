@@ -27,11 +27,11 @@ const Footer = () => {
                     <nav>
 
                         <div>
-                            <Link to="home" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Home</Link>
-                            <Link to="about" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">About</Link>
-                            <Link to="skills" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Skills</Link>
-                            <Link to="projects" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Projects</Link>
-                            <Link to="contact" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Contact</Link>
+                            <Link to="home" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-white">Home</Link>
+                            <Link to="about" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-white">About</Link>
+                            <Link to="skills" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-white">Skills</Link>
+                            <Link to="projects" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-white">Projects</Link>
+                            <Link to="contact" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-white">Contact</Link>
                         </div>
 
                         <h6 className="footer-title">Social</h6>
