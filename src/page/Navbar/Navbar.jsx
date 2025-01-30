@@ -1,11 +1,11 @@
-import { Link } from 'react-scroll'; // react-scroll থেকে Link ইমপোর্ট
+import { Link } from 'react-scroll';
 import cv from '../../assets/cv/kauserCV.pdf'
 
 const Navbar = () => {
 
     const link =
         <>
-            {/* "smooth" বাটন অ্যাড করা, স্ক্রলিং স্মুথ হবে */}
+           
             <Link to="home" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Home</Link>
             <Link to="about" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">About</Link>
             <Link to="skills" smooth={true} duration={500} className="btn btn-sm btn-ghost text-lg text-black lg:text-white">Skills</Link>

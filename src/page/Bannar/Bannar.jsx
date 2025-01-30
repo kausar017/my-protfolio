@@ -2,7 +2,7 @@ import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import image from '../../assets/userimg/kausae img.png'
 import { FiGithub } from 'react-icons/fi';
 import { IoLogoInstagram } from 'react-icons/io';
-import cv from '../../assets/cv/Resume of Kausar Mia.pdf'
+import cv from '../../assets/cv/kauserCV.pdf'
 import { Link } from 'react-scroll';
 import { Fade } from 'react-awesome-reveal';
 const Bannar = () => {
