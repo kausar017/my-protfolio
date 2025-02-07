@@ -17,9 +17,9 @@ const Footer = () => {
                         <p>
                             Md.kausar mia
                             <br />
-                            mdkousarmia71@gmail.com
+                            📧 mdkousarmia71@gmail.com
                             <br />
-                            Providing reliable tech since 2024
+                            📞 01786876781
                         </p>
                     </Fade>
                 </aside>
