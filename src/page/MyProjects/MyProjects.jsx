@@ -1,10 +1,4 @@
 import { Link } from "react-router-dom";
-import ecoexplor from "../../assets/My Project imge/ecoexplor.jpg";
-import baiker from "../../assets/My Project imge/baiker.jpg";
-import chinehub from "../../assets/My Project imge/chinehub.jpg";
-import foodlink from "../../assets/My Project imge/foodlink.jpg";
-import mary from "../../assets/My Project imge/mary.jpg";
-import Rinterio from "../../assets/My Project imge/Rinterio.jpg";
 import Marquee from "react-fast-marquee";
 import { Fade } from "react-awesome-reveal";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";

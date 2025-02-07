@@ -14,7 +14,7 @@ const Navbar = () => {
         </>
 
     return (
-        <div className="text-white fixed w-full z-10">
+        <div className="text-white fixed w-full z-10 backdrop-blur-md">
             <div className="navbar container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">

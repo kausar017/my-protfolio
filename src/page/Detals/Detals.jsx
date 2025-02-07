@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { LuCircleArrowOutUpLeft } from "react-icons/lu";
 import { useLoaderData } from "react-router-dom";
@@ -25,14 +26,17 @@ export default function Detals() {
             <p className="text-2xl">Technology Client Side</p>
 
             {/* Technology Section */}
+
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-lg font-semibold text-gray-200 mt-5">
               {data?.technology_client_side?.map((tech, index) => (
-                <div
-                  key={index}
-                  className="p-3 bg-white/20 rounded-lg shadow-md backdrop-blur-sm text-center"
-                >
-                  {tech}
-                </div>
+                <Fade delay={10} duration={2000} direction="up">
+                  <div
+                    key={index}
+                    className="p-3 bg-white/20 rounded-lg shadow-md backdrop-blur-sm text-center"
+                  >
+                    {tech}
+                  </div>
+                </Fade>
               ))}
             </div>
 
@@ -40,36 +44,40 @@ export default function Detals() {
               <div>
                 <p className="text-2xl mt-3">Technology Server Side</p>
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-lg font-semibold text-gray-200 mt-5">
-                  {data?.technology_server_side?.map((tech, index) => (
-                    <div
-                      key={index}
-                      className="p-3 bg-white/20 rounded-lg shadow-md backdrop-blur-sm text-center"
-                    >
-                      {tech}
-                    </div>
-                  ))}
+                  <Fade delay={10} duration={2000} direction="up">
+                    {data?.technology_server_side?.map((tech, index) => (
+                      <div
+                        key={index}
+                        className="p-3 bg-white/20 rounded-lg shadow-md backdrop-blur-sm text-center"
+                      >
+                        {tech}
+                      </div>
+                    ))}
+                  </Fade>
                 </div>
               </div>
             )}
 
             {/* Buttons */}
-            <div className="space-x-3 pt-5">
-              <a
-                href={data?.Live_Link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn bg-white/20 rounded-lg shadow-md backdrop-blur-sm"
-              >
-                Live <FaArrowUpRightFromSquare />
-              </a>
+            <Fade delay={10} duration={2000} direction="up">
+              <div className="space-x-3 pt-5">
+                <a
+                  href={data?.Live_Link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn bg-white/20 rounded-lg shadow-md backdrop-blur-sm"
+                >
+                  Live <FaArrowUpRightFromSquare />
+                </a>
 
-              <Link
-                to="/"
-                className="btn bg-white/20 rounded-lg shadow-md backdrop-blur-sm"
-              >
-                <LuCircleArrowOutUpLeft /> Back To Home
-              </Link>
-            </div>
+                <Link
+                  to="/"
+                  className="btn bg-white/20 rounded-lg shadow-md backdrop-blur-sm"
+                >
+                  <LuCircleArrowOutUpLeft /> Back To Home
+                </Link>
+              </div>
+            </Fade>
           </div>
         </div>
       ) : (
